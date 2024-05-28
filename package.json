@@ -2,14 +2,21 @@
   "name": "buntest",
   "module": "main.ts",
   "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
   "scripts": {
     "dev": "bun run main.ts",
     "start": "bun --watch main.ts"
   },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/dotenv": "^8.2.0",
+    "@types/winston": "^2.4.4"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0"
   }
 }
