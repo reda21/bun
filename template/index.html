@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horloge en direct</title>
+  </head>
+  <body>
+    <h1>la date est de :</h1>
+    <div id="clock"></div>
+
+    <script>
+      async function fetchTime() {
+        const response = await fetch("/time");
+        const data = await response.json();
+        return data.currentTime;
+      }
+
+      function startClock(time) {
+        const clockDiv = document.getElementById("clock");
+        
+        (async () => {
+          const initialTime = await fetchTime();
+          console.info(initialTime ?? time)
+        })();
+        
+       // updateClock(); // Initial call
+        setInterval(startClock, 1000); // Update every second
+      }
+
+      startClock(fetchTime());
+//     fetchTime().then(startClock);
+    </script>
+  </body>
+</html>
