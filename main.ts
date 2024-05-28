@@ -6,14 +6,6 @@ import { join } from 'path';
 // Lire le fichier HTML une seule fois
 const html = readFileSync(join('template', 'index.html'), 'utf-8');
 
-import {time} from "./lib/times"
-
-import { readFileSync } from 'fs';
-import { join } from 'path';
-
-// Lire le fichier HTML une seule fois
-const html = readFileSync(join('template', 'index.html'), 'utf-8');
-
 Bun.serve({
   port: 9000, // Utiliser un autre port
   // hostname: "mydomain.me",
