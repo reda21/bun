@@ -1,18 +1,10 @@
-
-
-import { generatePassword, hashPassword } from "./lib/app";
-import { logger } from "./lib/logger";
-import { time } from "./lib/times"
-
-const password = generatePassword({
-  length: 30,
-  useSymbols: true,
+Bun.serve({
+  port: 8070, // Utiliser un autre port
+ // hostname: "mydomain.me",
+  fetch(req) {
+    const url = new URL(req.url);
+    if (url.pathname === "/") return new Response("Home page!");
+    if (url.pathname === "/blog") return new Response("Blog!");
+    return new Response("404!");
+  },
 });
-
-logger.info(
-  `le nouveau mot passe est: ${password}, son hashage est de ${hashPassword(
-    password
-  )}`
-);
-
-logger.info(`heure : ${time()}`);
