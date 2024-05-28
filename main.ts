@@ -1,5 +1,3 @@
-
-
 import { generatePassword, hashPassword } from "./lib/app";
 import { logger } from "./lib/logger";
 
@@ -13,5 +11,3 @@ logger.info(
     password
   )}`
 );
-
-logger.info("done");
