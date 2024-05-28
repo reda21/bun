@@ -2,6 +2,7 @@
 
 import { generatePassword, hashPassword } from "./lib/app";
 import { logger } from "./lib/logger";
+import { time } from "./lib/times"
 
 const password = generatePassword({
   length: 30,
@@ -14,4 +15,4 @@ logger.info(
   )}`
 );
 
-logger.info("done");
+logger.info(`heure : ${time()}`);
