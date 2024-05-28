@@ -31,14 +31,5 @@ export function generatePassword(options: PasswordOptions = {}) {
   return password;
 }
 
-/**
- * Example function in TypeScript that returns a simple greeting message.
- * @param name The name of the person to greet.
- * @returns A greeting message.
- */
-export function greet(name: string): string {
-  return `Hello, ${name}!`;
-}
-
 
 
