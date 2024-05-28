@@ -7,7 +7,7 @@ import { join } from 'path';
 const html = readFileSync(join('template', 'index.html'), 'utf-8');
 
 Bun.serve({
-  port: 9000, // Utiliser un autre port
+  port: 9090, // Utiliser un autre port
   // hostname: "mydomain.me",
   fetch(req) {
     const url = new URL(req.url);
