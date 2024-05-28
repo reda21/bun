@@ -1,6 +1,6 @@
 import { generatePassword } from "./lib/app";
 
-console.info('tester')
+console.info('tester le clone')
 
 console.info(
   "new password is: " +
