@@ -1,3 +1,5 @@
+import { createHash } from 'crypto';
+
 import type { PasswordOptions } from "../types";
 
 export function generatePassword(options: PasswordOptions = {}) {
@@ -30,5 +32,14 @@ export function generatePassword(options: PasswordOptions = {}) {
 
   return password;
 }
+
+
+
+export function hashPassword(password: string): string {
+  const hash = createHash('sha256');
+  hash.update(password);
+  return hash.digest('hex');
+}
+
 
 // Cleaned up by removing debugging statements, standardizing variable names, improving readability, and simplifying the code.

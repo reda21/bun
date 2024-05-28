@@ -1,11 +1,17 @@
-import { generatePassword } from "./lib/app";
 
-console.info(
-  "new password is: " +
-    generatePassword({
-      length: 30,
-      useSymbols: true,
-    })
+
+import { generatePassword, hashPassword } from "./lib/app";
+import { logger } from "./lib/logger";
+
+const password = generatePassword({
+  length: 30,
+  useSymbols: true,
+});
+
+logger.info(
+  `le nouveau mot passe est: ${password}, son hashage est de ${hashPassword(
+    password
+  )}`
 );
 
-console.info("done");
+logger.info("done");
