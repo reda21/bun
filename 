@@ -1,0 +1,180 @@
+[33mcommit e4a5851d8962ea38cdc37473fc72350995811623[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mclone[m[33m, [m[1;31morigin/clone[m[33m)[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 14:19:40 2024 +0100
+
+    add hashage function and update main.ts
+
+[33mcommit 96db77c567b1401dc2738435ee6690092154ed62[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 14:10:13 2024 +0100
+
+    optimiser function generatePassword
+
+[33mcommit 18bca9a9f86dfaa208d15ba9074b7459d1fcaacc[m[33m ([m[1;32mmain[m[33m)[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 14:02:03 2024 +0100
+
+    delete name function
+
+[33mcommit 9b060722ae55ef74e6bbcf9b8e13e7e2e8e145f7[m
+Merge: a6bf7b1 ccf9fc8
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:59:54 2024 +0100
+
+    Merge branch 'main' of https://github.com/reda21/bun
+
+[33mcommit a6bf7b17b08794fd1e1c67274d8369a3a0c7d1e6[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:59:21 2024 +0100
+
+    tested
+
+[33mcommit ccf9fc861bf1ffd0fb223c2471aa4a135987d619[m
+Merge: 2357a32 6065220
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:59:12 2024 +0100
+
+    Merge branch 'main' of https://github.com/reda21/bun
+
+[33mcommit 2357a329d67ca98be5e29d37592fe56f291c82a4[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:59:06 2024 +0100
+
+    correction
+
+[33mcommit 606522091372fc2e03075d152dfcfca651486017[m
+Merge: 5cfb67a e1e15d3
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:56:36 2024 +0100
+
+    Merge branch 'main' of https://github.com/reda21/bun
+
+[33mcommit 5cfb67a0e46f22bac9cb399dffb8db798724c429[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:56:22 2024 +0100
+
+    alpha
+
+[33mcommit e1e15d30aaaabe4e95ad851d6a234fc7e366d46d[m
+Merge: 11e89a4 318a699
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:55:22 2024 +0100
+
+    Merge branch 'main' of https://github.com/reda21/bun
+
+[33mcommit 11e89a491b5863b9ed5cddc8728532f50d69999e[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:55:16 2024 +0100
+
+    test a suprimer
+
+[33mcommit 318a699fafa717f662cc0ee4e5b67d9987eb77b6[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:46:48 2024 +0100
+
+    commit a effacer
+
+[33mcommit ce2951cbbaecf2c3c98d75e5041c7116a2eda10f[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:34:21 2024 +0100
+
+    pnpm-lock.yaml igniore
+
+[33mcommit 3ca3cd378109d2c6a57f10cfac5cf22e25f8c43c[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:30:54 2024 +0100
+
+    Remove bun.lockb from repository and update .gitignore
+
+[33mcommit 916ad61445f22924e22a27b799d8275d6ea45b06[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:16:36 2024 +0100
+
+    correcion de generatePassowrd
+
+[33mcommit 9cc3da2423aa67c5d484337b525455ab8b80b78c[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 13:01:53 2024 +0100
+
+    add files types
+
+[33mcommit c3e00b210cd2eeb1a46a8e8ff2a3dca8b27f9256[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 12:40:48 2024 +0100
+
+    last change
+
+[33mcommit c56b73ee71d03c2feb3b20366ce215af3de543a4[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 12:36:26 2024 +0100
+
+    Revert "igiore bun.lockb"
+    
+    This reverts commit 28faef16f2f43376bb059fe38ef98452e1640ce6.
+
+[33mcommit e08b26637eaf74308ef06922b91620f8d6a7568b[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 12:11:32 2024 +0100
+
+    delete lib
+
+[33mcommit 65bf5097ac0ba746c8cd71ba9030cccca9ad993a[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:56:23 2024 +0100
+
+    mauvais
+
+[33mcommit 28faef16f2f43376bb059fe38ef98452e1640ce6[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:44:15 2024 +0100
+
+    igiore bun.lockb
+
+[33mcommit 9d65197108cc03be932f5dec2b0c5e8060c69e59[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:25:11 2024 +0100
+
+    ajout ; dans la linge 3
+
+[33mcommit 8a0a5c9b0da14a0e62ee46c42cc37269342bec31[m
+Merge: f93f136 e9234e5
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:24:22 2024 +0100
+
+    merge
+
+[33mcommit e9234e507005b6111421f1292f0a7b166cbd5c50[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:20:20 2024 +0100
+
+    project clone
+
+[33mcommit f93f1361a17729357441547fc7a10430ae6ac1bf[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:20:19 2024 +0100
+
+    project main
+
+[33mcommit 561dac18f458e8d2bc32adef1ffe340f0a5774f5[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:18:45 2024 +0100
+
+    clone : ok
+
+[33mcommit 57ad02cdf96a7ad3d269d2f0c5a52753b655cb82[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:16:49 2024 +0100
+
+    changement dans main.ts
+
+[33mcommit 45cb370e4f2ec60dd9965dc8b89a841a47b46def[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 11:12:53 2024 +0100
+
+    change to readme.md
+
+[33mcommit c0983a004499e17b644bbdf39ea7927be12ced4a[m
+Author: Reda Cherfaoui <redacherfaoui@gmail.com>
+Date:   Tue May 28 10:59:01 2024 +0100
+
+    fist commit
