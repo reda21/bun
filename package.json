@@ -1,0 +1,14 @@
+{
+  "name": "buntest",
+  "module": "main.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun --watch main.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
