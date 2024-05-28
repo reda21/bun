@@ -1,5 +1,6 @@
 import type { PasswordOptions } from "../types";
 
+
 export function generatePassword(options: PasswordOptions = {}) {
   const defaultOptions: PasswordOptions = {
     length: 8,
@@ -17,12 +18,17 @@ export function generatePassword(options: PasswordOptions = {}) {
   if (finalOptions.useNumbers || characters.length === 0) characters += numbers;
   if (finalOptions.useSymbols || characters.length === 0) characters += symbols;
 
+  const passwordLength = finalOptions.length !== undefined ? finalOptions.length : defaultOptions.length;
+
   let password = '';
-  for (let i = 0; i < (finalOptions.length || defaultOptions.length); i++) {
-    const randomIndex = Math.floor(Math.random() * characters.length);
-    password += characters[randomIndex];
+  if(passwordLength){
+    for (let i = 0; i < passwordLength; i++) {
+      const randomIndex = Math.floor(Math.random() * characters.length);
+      password += characters[randomIndex];
+    }
   }
 
   return password;
 }
+
 
