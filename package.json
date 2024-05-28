@@ -11,5 +11,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
   }
 }
