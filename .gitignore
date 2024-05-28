@@ -176,3 +176,6 @@ dist
 
 #bun lock
 bun.lockb
+
+#pnpm lock 
+pnpm-lock.yaml
