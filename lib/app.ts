@@ -1,8 +1,4 @@
-interface PasswordOptions {
-  length?: number;
-  useNumbers?: boolean;
-  useSymbols?: boolean;
-}
+import type { PasswordOptions } from "../types";
 
 export function generatePassword(options: PasswordOptions = {}) {
   const defaultOptions: PasswordOptions = {
