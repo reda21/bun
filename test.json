@@ -1,0 +1,11 @@
+{
+    "name": "test",
+    "type": "module",
+    "scripts": {
+        "dev": "bun run main.ts",
+        "start": "bun --watch main.ts"
+    },
+    "dependencies": {
+        "typescript": "^5.0.0"
+    }
+}
