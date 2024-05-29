@@ -9,5 +9,3 @@ globalThis.count++;
 
 // prevent `bun run` from exiting
 setInterval(function () {}, 1000);
-
-console.info("toto is toto")
