@@ -1,38 +1,13 @@
-import {time} from "./lib/times"
+// make TypeScript happy
+declare global {
+  var count: number;
+}
 
-import { readFileSync } from 'fs';
-import { join } from 'path';
+globalThis.count ??= 0;
+console.log(`Reloaded ${globalThis.count} times`);
+globalThis.count++;
 
-// Lire le fichier HTML une seule fois
-const html = readFileSync(join('template', 'index.html'), 'utf-8');
+// prevent `bun run` from exiting
+setInterval(function () {}, 1000);
 
-Bun.serve({
-  port: 9090, // Utiliser un autre port
-  // hostname: "mydomain.me",
-  fetch(req) {
-    const url = new URL(req.url);
-    if (url.pathname === "/") {
-      return new Response(html, {
-        headers: { "Content-Type": "text/html" }
-      });
-    }
-    if (url.pathname === "/time") {
-      return new Response(JSON.stringify({ currentTime: time() }), {
-        headers: { "Content-Type": "application/json" }
-      });
-    }
-    return new Response("404!", { status: 404 });
-    if (url.pathname === "/") {
-      return new Response(html, {
-        headers: { "Content-Type": "text/html" }
-      });
-    }
-    if (url.pathname === "/time") {
-      return new Response(JSON.stringify({ currentTime: time() }), {
-        headers: { "Content-Type": "application/json" }
-      });
-    }
-    return new Response("404!", { status: 404 });
-  },
-});
-
+console.info("toto is toto")
